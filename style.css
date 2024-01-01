@@ -1,0 +1,66 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #77d35d;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+nav {
+  background-color: #ddd;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  padding: 1em;
+}
+
+.business-card {
+  color: #fff;
+  border: 1px solid #372c2c;
+  border-radius: 8px;
+  padding: 1em;
+  margin: 1em;
+  background-color: #1a212c;
+  transition: transform 0.3s ease-in-out;
+}
+
+.business-card:hover {
+  transform: scale(1.03);
+}
+
+label {
+  font-weight: 700;
+  font-size: 130%;
+  margin-left: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  label {
+    font-size: 110%;
+    margin-left: 15px;
+  }
+
+  .business-card {
+    margin: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  label {
+    font-size: 100%;
+    margin-left: 10px;
+  }
+
+  .business-card {
+    margin: 0.5em;
+    padding: 0.8em;
+  }
+}

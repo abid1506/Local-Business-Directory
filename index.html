@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Business Directory</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+  <body>
+    <header>
+      <h1>Local Business Directory</h1>
+    </header>
+
+    <nav>
+      <label for="category">Select Business Category:</label>
+      <select id="category">
+        <option value="all">All Categories</option>
+        <option value="restaurants">Restaurants</option>
+        <option value="auto-services">Auto Services</option>
+        <option value="home-services">Home Services</option>
+        <option value="medical-services">Medical Services</option>
+      </select>
+
+      <label for="neighborhood">Select Neighborhood:</label>
+      <select id="neighborhood">
+        <option value="all">All Neighborhoods</option>
+        <option value="downtown">Downtown</option>
+        <option value="kirti-nagar">Kirti-nagar</option>
+        <option value="jamianagar">Jamianagar</option>
+      </select>
+    </nav>
+
+    <main id="business-container"></main>
+    <script src= "./index.js"></script>
+
+  </body>
+</html>
